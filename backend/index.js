@@ -3,7 +3,7 @@ const http = require('http').Server(app);
 const io = require('socket.io')(http);
 
 app.get('/', (req, res) => {
-  res.send("jembuy");
+  res.send("test");
 });
 
 io.on('connection', (socket) => {
